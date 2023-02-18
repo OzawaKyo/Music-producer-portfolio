@@ -35,77 +35,63 @@ body {
     text-transform: uppercase !important;
     font-weight: normal !important;
   }
+
+
   @media (min-width: 600px) {
     .burger-menu {
       display: none;
     }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    /* Apply these styles when the screen is 768px or less */
-    nav {
-      flex-direction: row;
-      align-items: center;
-    }
-    
     .nav-right {
-      flex-direction: column;
-      align-items: center;
-      display: none;
-    }
-    
-    .nav-right.show {
       display: flex;
     }
-    
     .nav-right-item {
-      margin: 0.5em 0;
+      margin: 1em;
     }
-    
-    .nav-item {
-      margin: 0.5em 0;
+  }
+  
+  @media (max-width: 599px) {
+    .nav-right {
+      display: none;
     }
-    
-    .navbar-toggle {
+    .nav-right.show {
+      display: flex;
+      flex-direction: column;
+      background-color: #333;
       position: absolute;
-      right: 2em;
-      top: 1.5em;
+      top: 100%;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+    .nav-right.show .nav-right-item {
+      margin: 0.5em 1em;
+    }
+    .nav-right.show .nav-right-item:hover {
+      color: white;
+    }
+    .burger-menu {
+      display: flex;
+      flex-direction: column;
       cursor: pointer;
+      margin: 0.5em;
     }
-    
-    .navbar-toggle .bar {
-      display: block;
-      width: 20px;
-      height: 2px;
-      border-radius: 2px;
-      margin: 4px 0;
+    .bar1,
+    .bar2,
+    .bar3 {
+      width: 30px;
+      height: 3px;
       background-color: white;
-      transition: background-color 0.2s ease-in-out;
+      margin: 6px 0;
+      transition: 0.4s;
     }
-    
-    .navbar-toggle .bar:nth-of-type(1) {
-      transform-origin: top left;
+    .open .bar1 {
+      transform: rotate(-45deg) translate(-8px, 7px);
     }
-    
-    .navbar-toggle .bar:nth-of-type(2) {
-      transform-origin: top right;
+    .open .bar2 {
+      opacity: 0;
     }
-    
-    .navbar-toggle .bar:nth-of-type(3) {
-      transform-origin: bottom right;
-    }
-    
-    .navbar-toggle.open .bar:nth-of-type(1) {
-      transform: rotate(45deg) translate(5px, 5px);
-    }
-    
-    .navbar-toggle.open .bar:nth-of-type(2) {
-      transform: rotate(-45deg) translate(3px, -3px);
-    }
-    
-    .navbar-toggle.open .bar:nth-of-type(3) {
-      transform: scaleX(0);
+    .open .bar3 {
+      transform: rotate(45deg) translate(-8px, -7px);
     }
   }
   
