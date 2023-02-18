@@ -1,0 +1,30 @@
+body {
+  font-family: 'Michroma', sans-serif;
+  color: white;
+  margin: 0em;
+  font-size: 12px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 1.5em;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right-item{
+    margin: 1em;
+}
+.nav-right-item:hover{
+    cursor: pointer;
+    color: rgb(90, 95, 100);
+}
+.button-86{
+    margin-top: 0.3em !important;
+}
+h1,button{
+  text-transform: uppercase !important;
+  font-weight: normal !important
+}
