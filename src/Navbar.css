@@ -37,10 +37,7 @@ body {
   }
 
 
-  @media (min-width: 600px) {
-    .burger-menu {
-      display: none;
-    }
+  @media (min-width: 899px) {
     .nav-right {
       display: flex;
     }
@@ -49,19 +46,16 @@ body {
     }
   }
   
-  @media (max-width: 900px) {
-    .burger-menu {
-        display: none;
-      }
-      .nav-right{
-        display: none;
-      }
-      nav{
-        display: flex;
-        align-items: center;
-      }
-      .nav-item{
-        margin: auto;
-      }
+@media (max-width: 900px) {
+  .nav-right{
+    display: none;
   }
+  nav{
+    display: flex;
+    align-items: center;
+  }
+  .nav-item{
+    margin: auto;
+    }
+}
   
