@@ -1,0 +1,51 @@
+.hidden{
+    display: none;
+}
+
+.tracks{
+    text-align: center;
+    font-family: 'Michroma';    
+}
+
+.track-img {
+    /* width: 50%;
+    height: 100%; */
+    object-fit: cover;
+    -webkit-box-reflect: below 2px linear-gradient(transparent, transparent, #0004);
+    transform-origin: center;
+    transform: perspective(800px) rotateY(25deg);
+    transition: 0.5s;
+    max-width: 600px; 
+    max-height: 350px;
+}
+
+.track-container {
+    /* max-width: 600px; */
+    /* max-height: 350px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10em;
+    margin-bottom: 15em;
+
+}
+
+.track-container:hover .track-img {
+    opacity: 0.3;
+
+}
+
+.track-container .track-img:hover {
+    transform: perspective(800px) rotateY(0deg);
+    opacity: 1;
+    cursor: pointer;
+}
+@media (max-width: 900px) {
+    .track-container{
+        flex-direction: column;
+    }
+    .track-img{
+        margin-bottom: 15em;
+    }
+}

@@ -4,11 +4,15 @@ import './index.css'
 import Navbar from './Navbar'
 import Home from './Home'
 import Projects from './Project'
+import Music from './Music'
+import Tracks from './Tracks'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
     <Home />
     <Projects />
+    <Music />
+    <Tracks />
   </React.StrictMode>,
 )

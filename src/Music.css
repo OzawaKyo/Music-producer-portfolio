@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Akira';
+    src: url('./assets/fonts/Akira.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.music-container{
+ display: flex ;
+ flex-direction: column;
+ align-items: center;
+ margin-bottom: 10em;
+}
+.img-headphones{
+    max-width: 400px;
+    margin-top: -4.5em;
+}
+.music-h1{
+    margin: 0;
+    font-family: "Akira";
+    font-size:105px;
+}
+@media (max-width: 856px) {
+    .music-container{
+        margin-top: 7em;
+    }
+    .img-headphones{
+        max-width: 230px;
+        margin-top: -2em;
+    }
+    .music-h1{
+        font-size:55px;
+    }
+}

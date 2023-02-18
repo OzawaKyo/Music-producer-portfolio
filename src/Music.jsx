@@ -1,14 +1,14 @@
 import React from "react";
-import './Home.css'
-import ozawa from './assets/img/ozawa.png'
+import './Music.css'
+import headphones from './assets/img/headphones.jpg'
 
 export default function Music(){
     return (
-        <div className="home-container">
-            <h1 className="home-h1">Creative</h1>
-            <h1 className="home-h1">Developer</h1>
-            <img src={ozawa} alt="ozawa" className="img-ozawa"/>
-            <h1 className="home-h1">Ozawa</h1>
+        <div className="music-container">   
+            <h1 className="music-h1">Creative</h1>
+            <h1 className="music-h1">Music</h1>
+            <img src={headphones} alt="ozawa" className="img-headphones"/>
+            <h1 className="music-h1">Producer</h1>
         </div>
     )
 }
