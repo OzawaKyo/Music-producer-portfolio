@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Akira';
+    src: url('./assets/fonts/Akira.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+.home-container{
+ margin-top: 3em;
+ display: flex ;
+ flex-direction: column;
+ align-items: center;
+}
+.img-ozawa{
+    max-width: 500px;
+    margin-top: -5em;
+}
+.home-h1{
+    margin: 0;
+    font-family: "Akira";
+    font-size:95px;
+}
+@media (max-width: 856px) {
+    .home-container{
+        margin-top: 7em;
+    }
+    .img-ozawa{
+        max-width: 240px;
+        margin-top: -2em;
+    }
+    .home-h1{
+
+        font-size:40px;
+    }
+}

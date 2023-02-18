@@ -2,7 +2,7 @@ import React from "react";
 import './Home.css'
 import ozawa from './assets/img/ozawa.png'
 
-export default function Home(){
+export default function Music(){
     return (
         <div className="home-container">
             <h1 className="home-h1">Creative</h1>
