@@ -1,7 +1,9 @@
 .hidden{
     display: none;
 }
-
+.track-cont{
+    padding-top:3em ;
+}
 .tracks{
     text-align: center;
     font-family: 'Michroma';    
@@ -47,5 +49,7 @@
     }
     .track-img{
         margin-bottom: 15em;
+        max-width: 300px; 
+        max-height: 300px;
     }
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import './Projects.css'
-import face from './assets/img/face.jpg'
-import face2 from './assets/img/face2.jpg'
-import orange from './assets/img/orange.jpg'
+import face from './assets/img/face4.jpg'
+import face2 from './assets/img/face222.jpg'
+import orange from './assets/img/orange3.jpg'
 
 
 export default function Projects(){
     return(
-<div className="container">
+<div className="container" id="Projects">
     <div className="margin">
         <h1 className="Projects">Projects :</h1>
         <div className="row">

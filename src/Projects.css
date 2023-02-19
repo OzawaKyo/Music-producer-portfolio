@@ -1,12 +1,13 @@
-
+@font-face {
+    font-family: 'Akira';
+    src: url('./assets/fonts/Akira.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 .Projects{
     text-align: center;
     font-family: 'Michroma';
 }
-
-
-
-
 
 /* default */
 
@@ -215,7 +216,7 @@ figcaption {
 
 
 .projects-button {
-    font-family: inherit;
+    font-family: 'akira';
     font-weight: bold;
     color: var(--white-1);
     letter-spacing: 2px;
@@ -229,8 +230,8 @@ figcaption {
 
 .projects-button:hover,
 .projects-button:focus {
-    color: black;
-    background: white;
+    color: rgb(177, 164, 164);
+    background: inherit;
     border-color: currentColor;
 }
 

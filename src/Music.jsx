@@ -4,7 +4,8 @@ import headphones from './assets/img/headphones.jpg'
 
 export default function Music(){
     return (
-        <div className="music-container">   
+        <div className="music-container" id="Music">   
+            <br />  <br /><br />
             <h1 className="music-h1">Creative</h1>
             <h1 className="music-h1">Music</h1>
             <img src={headphones} alt="ozawa" className="img-headphones"/>

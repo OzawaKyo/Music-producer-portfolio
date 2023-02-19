@@ -8,9 +8,13 @@ body {
   nav {
     display: flex;
     justify-content: space-between;
-    margin-left: 5em;
-    margin-right: 5em;
-    margin-top: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:#171717 ;
   }
   
   .nav-right {
@@ -21,9 +25,9 @@ body {
     margin: 1em;
   }
   
-  .nav-right-item:hover {
+  a:hover {
     cursor: pointer;
-    color: rgb(90, 95, 100);
+    color: rgb(90, 95, 100) !important;
   }
   
   .button-86 {
@@ -58,4 +62,7 @@ body {
     margin: auto;
     }
 }
-  
+nav a {
+  text-decoration: none; /* removes the underline */
+  color: white; /* changes the text color */
+}
