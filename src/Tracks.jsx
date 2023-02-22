@@ -31,7 +31,7 @@ export default function Tracks(){
             <div className="track-container">
                 <img className="track-img" src={track1} alt="" onClick={() => handleTrackClick(track1, audioRef1)} style={{ display: selectedTrack !== track1 && selectedTrack !== null ? 'none' : 'block' }} />
                 <img className="track-img" src={track2} alt="" onClick={() => handleTrackClick(track2, audioRef2)} style={{ display: selectedTrack !== track2 && selectedTrack !== null ? 'none' : 'block' }} />
-                <img className="track-img" src={track3} alt="" onClick={() => handleTrackClick(track3, audioRef3)} style={{ display: selectedTrack !== track3 && selectedTrack !== null ? 'none' : 'block' }} />
+                <img className="track-img last-track-img" src={track3} alt="" onClick={() => handleTrackClick(track3, audioRef3)} style={{ display: selectedTrack !== track3 && selectedTrack !== null ? 'none' : 'block' }} />
             </div>
             <audio ref={audioRef1} src={song1} />
             <audio ref={audioRef2} src={song2} />

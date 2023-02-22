@@ -46,10 +46,14 @@
 @media (max-width: 900px) {
     .track-container{
         flex-direction: column;
+        margin-bottom: none !important;
     }
     .track-img{
         margin-bottom: 15em;
         max-width: 300px; 
         max-height: 300px;
+    }
+    .last-track-img{
+        margin-bottom: none;
     }
 }
