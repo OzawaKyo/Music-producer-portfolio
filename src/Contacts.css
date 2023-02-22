@@ -16,8 +16,10 @@
         padding-top: 0em !important;
     }
     .card{
-        height: 350px !important;
+        height: 380px !important;
         width: 400px !important;
+        display: flex;
+        flex-direction: column;
     }
     .tags{
         display: flex ;
