@@ -11,6 +11,20 @@
     padding: 3rem;
     justify-content: center;
 }
+@media (max-width: 900px) {
+    .contact-container{
+        padding-top: 0em !important;
+    }
+    .card{
+        height: 350px !important;
+        width: 400px !important;
+    }
+    .tags{
+        display: flex ;
+        flex-direction: column;
+        gap: 0.8em;
+    }
+}
 
 .card-list::-webkit-scrollbar {
     width: 10px;
@@ -165,8 +179,3 @@
     border-color: white;
 }
 
-@media (max-width: 900px) {
-    .contact-container{
-        padding-top: 0em !important;
-    }
-}

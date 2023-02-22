@@ -27,8 +27,10 @@ export default function Contact(){
                         </div>
                     </div>
                     <div className="tags">
-                        <a href="https://github.com/OzawaKyo" target='_blank'>Github</a>
-                        <a href="https://www.instagram.com/simoamarcha/" target='_blank'>instagram</a>
+                        <div className="tags-item">
+                            <a href="https://github.com/OzawaKyo" target='_blank'>Github</a>
+                            <a href="https://www.instagram.com/simoamarcha/" target='_blank'>instagram</a>
+                        </div>
                     </div>
                     <div className="author-name-prefix">Simoamarcha@icloud.com</div>
                 </article>
@@ -51,9 +53,13 @@ export default function Contact(){
                         </div>
                     </div>
                     <div className="tags">
-                        <a href="https://www.beatstars.com/ozawakyo" target='_blank'>BeatStars</a>
-                        <a href="https://www.youtube.com/@ozawakyo6320" target='_blank'>Youtube</a>
-                        <a href="https://www.instagram.com/simoamarcha/" target='_blank'>Instagram</a>
+                        <div>
+                            <a href="https://www.beatstars.com/ozawakyo" target='_blank'>BeatStars</a>
+                            <a href="https://www.youtube.com/@ozawakyo6320" target='_blank'>Youtube</a>
+                        </div>
+                        <div>
+                            <a href="https://www.instagram.com/simoamarcha/" target='_blank'>Instagram</a>
+                        </div>
                     </div>
                     <div className="author-name-prefix">ProdByOzawaKyo@gmail.com</div>
                 </article>
