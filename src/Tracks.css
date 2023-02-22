@@ -29,7 +29,7 @@
     align-items: center;
     gap: 20px;
     margin-top: 10em;
-    margin-bottom: 15em;
+    margin-bottom: 5em;
 
 }
 
@@ -45,15 +45,20 @@
 }
 @media (max-width: 900px) {
     .track-container{
-        flex-direction: column;
+        /* flex-direction: column; */
         margin-bottom: none !important;
     }
     .track-img{
         margin-bottom: 15em;
-        max-width: 300px; 
+        max-width: 130px; 
         max-height: 300px;
     }
     .last-track-img{
         margin-bottom: none;
+    }
+}
+@media ( min-width:900px)and (max-width: 1150px) {
+    .track-img{
+        max-width: 200px; 
     }
 }
